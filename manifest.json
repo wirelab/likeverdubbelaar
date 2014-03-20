@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Like Verdubbelaar",
+  "description": "This plugin imediately doubles your likes on Facebook",
+  "version": "1.0",
+
+  "permissions": [
+    "https://*.facebook.com/",
+    "http://*.facebook.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.facebook.com/*",
+        "http://*.facebook.com/*"
+      ],
+      "js": ["jquery.min.js", "main.js"]
+    }
+  ]
+}
