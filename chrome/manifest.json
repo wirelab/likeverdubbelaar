@@ -9,6 +9,11 @@
     "https://*.facebook.com/",
     "http://*.facebook.com/"
   ],
+  "icons": {
+      "128": "double-like_128.png",
+      "16": "double-like_16.png",
+      "48": "double-like_48.png"
+   },
   "content_scripts": [
     {
       "matches": [
