@@ -24,7 +24,7 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>main.js</string>
+				<string>main.min.js</string>
 			</array>
 		</dict>
 		<key>Whitelist</key>
