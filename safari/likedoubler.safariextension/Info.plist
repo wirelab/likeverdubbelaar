@@ -24,8 +24,6 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>jquery.min.js</string>
-				<string>accounting.min.js</string>
 				<string>main.js</string>
 			</array>
 		</dict>
